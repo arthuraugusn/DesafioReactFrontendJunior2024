@@ -1,0 +1,26 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+body {
+  background-color: #f5f5f5;
+}
+
+.input_todo::placeholder {
+  font-style: italic;
+}
+
+/* RoundCheckbox.css */
+.round-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
